@@ -6,9 +6,9 @@ export default {
 </script>
 
 <template>
-    <div class="header" id="site_header">
+    <header id="site_header">
         <div class="container">
-            <div class="info d-flex justify-content-between py-4">
+            <div class="info d-flex justify-content-between py-3">
                 <div class="timetable">
                     <font-awesome-icon icon="fa-solid fa-clock" />
                     <span class="p-2">Open Hours: Mon - Sat - 9:00 - 18:00</span>
@@ -51,7 +51,7 @@ export default {
                                         <a class="nav-link" href="#">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Service</a>
+                                        <a class="nav-link" href="#">Services</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link">Process</a>
@@ -61,14 +61,24 @@ export default {
                                     </li>
                                 </ul>
                             </div>
-                            <font-awesome-icon icon="fa-regular fa-user" class="fs-5" />
+                            <font-awesome-icon icon="fa-regular fa-user" class="fs-5 px-2" />
                             <button class="btn px-4 py-2 ms-4 rounded-1" type="button">Get In Touch</button>
                         </div>
                     </nav>
+
+                    <div class="title">
+                        <span>Logistics Service</span>
+                        <h1>Cargo Transport</h1>
+                        <p>Fractional or exclusive road cargo transportation to all regions, with small, medium and
+                            large vehicles.
+                        </p>
+                        <button class="btn px-4 py-2 me-4 rounded-1 get" type="button">Get In Touch</button>
+                        <button class="btn px-4 py-2 rounded-1 read" type="button">Read More</button>
+                    </div>
                 </div>
             </div>
         </section>
-    </div>
+    </header>
 
 
 
@@ -80,22 +90,26 @@ export default {
 #site_header {
     background-color: $dark_blue;
     color: $lightgrey;
-
+    font-weight: 200;
+    font-size: 15px;
 
     .jumbotron {
         background-image: url('../assets/img/bg-9.jpg');
-        height: 1000px;
+        background-position: center top;
+        height: 900px;
         opacity: 0.8;
 
         .jumbo_info {
-            height: 1000px;
+            height: 900px;
             background-color: rgba(0, 0, 0, 0.567);
         }
 
         .navbar-nav .nav-link {
             color: $light;
             text-transform: uppercase;
-            padding: 0 1.5rem;
+            padding: 0 1rem;
+            font-size: 17px;
+            font-weight: 500;
         }
 
         img {
@@ -106,6 +120,37 @@ export default {
             background-color: $secondary;
             color: $light;
             text-transform: uppercase;
+        }
+
+        .title {
+            position: relative;
+            top: 200px;
+            width: 600px;
+            font-size: 20px;
+
+            h1 {
+                font-size: 90px;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: $light;
+                margin-bottom: 1rem;
+            }
+
+            span {
+                text-transform: uppercase;
+                color: $secondary;
+                font-weight: 500;
+
+            }
+
+            p {
+                font-weight: 300;
+            }
+
+            .read {
+                background-color: transparent;
+                border: 1px solid $secondary ;
+            }
         }
     }
 }
