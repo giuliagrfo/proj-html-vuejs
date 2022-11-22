@@ -16,7 +16,7 @@ export default {
             <div class="row justify-content-center text-start">
                 <div class="col-3 sites">
                     <div class="head">
-                        <img class="img-fluid" src="../assets/img/logo-1.png" alt="">
+                        <img class="img-fluid" src="../../assets/img/logo-1.png" alt="">
                     </div>
                     <div class="info mt-3">
                         <p>Ab maxime nostrum numquam deleniti ratione earum repellat aperiam? Cupiditate quo earum
@@ -31,7 +31,7 @@ export default {
                 </div>
                 <div class="col-3 sites">
                     <div class="head">
-                        <img class="img-fluid" src="../assets/img/logo-2.png" alt="">
+                        <img class="img-fluid" src="../../assets/img/logo-2.png" alt="">
                     </div>
                     <div class="info mt-3">
                         <p>Ab maxime nostrum numquam deleniti ratione earum repellat aperiam? Cupiditate quo earum
@@ -46,7 +46,7 @@ export default {
                 </div>
                 <div class="col-3 sites">
                     <div class="head">
-                        <img class="img-fluid" src="../assets/img/logo-3.png" alt="">
+                        <img class="img-fluid" src="../../assets/img/logo-3.png" alt="">
                     </div>
                     <div class="info mt-3">
                         <p>Ab maxime nostrum numquam deleniti ratione earum repellat aperiam? Cupiditate quo earum
@@ -66,7 +66,8 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../assets/scss/partials/variables' as*;
+@use '../../assets/scss/partials/variables' as*;
+
 
 .feedback {
     background-color: $primary;

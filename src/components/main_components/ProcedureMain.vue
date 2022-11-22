@@ -57,7 +57,8 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../assets/scss/partials/variables' as*;
+@use '../../assets/scss/partials/variables' as*;
+
 
 .procedure {
     text-align: center;

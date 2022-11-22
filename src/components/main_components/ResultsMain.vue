@@ -50,11 +50,12 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../assets/scss/partials/variables' as*;
+@use '../../assets/scss/partials/variables' as*;
+
 
 .results {
     text-align: center;
-    background-image: url('../assets/img/bg-10.jpg');
+    background-image: url('../../assets/img/bg-10.jpg');
     background-position: center;
     color: $light;
     padding: 8rem 0;

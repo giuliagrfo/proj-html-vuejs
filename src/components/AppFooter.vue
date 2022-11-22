@@ -1,6 +1,12 @@
 <script>
+import { store } from '../store.js'
 export default {
-    name: 'AppFooter'
+    name: 'AppFooter',
+    data() {
+        return {
+            store
+        }
+    }
 }
 </script>
 
@@ -32,69 +38,27 @@ export default {
                 <div class="col links">
                     <h5>About</h5>
                     <ul>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> The Company
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Institutional
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Social & Events
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Innovation
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Environment
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Technology
+                        <li v-for="item in store.about">
+                            <font-awesome-icon icon="fa-solid fa-chevron-right" />
+                            <a :href="item.href">{{ item.text }}</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col links">
                     <h5>Transport</h5>
                     <ul>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Industrialized
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Chemicals
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Packaged Liquids
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Construction
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Laminated Wood
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> And others
+                        <li v-for="item in store.transport">
+                            <font-awesome-icon icon="fa-solid fa-chevron-right" />
+                            <a :href="item.href">{{ item.text }}</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col links">
                     <h5>Support</h5>
                     <ul>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Responsibility
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Terms of Use
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> About Cookies
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Privacy Policy
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Accessibility
-                        </li>
-                        <li>
-                            <font-awesome-icon icon="fa-solid fa-chevron-right" /> Information
+                        <li v-for="item in store.support">
+                            <font-awesome-icon icon="fa-solid fa-chevron-right" />
+                            <a :href="item.href">{{ item.text }}</a>
                         </li>
                     </ul>
                 </div>

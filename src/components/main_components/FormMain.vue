@@ -70,7 +70,7 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../assets/scss/partials/variables' as*;
+@use '../../assets/scss/partials/variables' as*;
 
 .form {
     padding: 5rem 0;

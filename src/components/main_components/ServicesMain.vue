@@ -62,7 +62,8 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../assets/scss/partials/variables' as*;
+@use '../../assets/scss/partials/variables' as*;
+
 
 .services {
     background-color: $primary;

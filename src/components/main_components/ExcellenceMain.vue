@@ -1,6 +1,7 @@
 <script>
 export default {
     name: 'ExcellenceMain'
+
 }
 </script>
 
@@ -43,7 +44,7 @@ export default {
                     <h4 class="mb-5">Vehicle Types</h4>
                     <div class="light truck d-flex">
                         <div class="truck_img rounded">
-                            <img class="img-fluid" src="../assets/img/truck-1.png" alt="">
+                            <img class="img-fluid" src="../../assets/img/truck-1.png" alt="">
                         </div>
                         <div class="description ms-4">
                             <h4>Light</h4>
@@ -53,7 +54,7 @@ export default {
                     <hr>
                     <div class="medium truck d-flex">
                         <div class="truck_img rounded">
-                            <img class="img-fluid" src="../assets/img/truck-1.png" alt="">
+                            <img class="img-fluid" src="../../assets/img/truck-1.png" alt="">
                         </div>
                         <div class="description ms-4">
                             <h4>Medium</h4>
@@ -63,7 +64,7 @@ export default {
                     <hr>
                     <div class="heavy truck d-flex">
                         <div class="truck_img rounded">
-                            <img class="img-fluid" src="../assets/img/truck-1.png" alt="">
+                            <img class="img-fluid" src="../../assets/img/truck-1.png" alt="">
                         </div>
                         <div class="description ms-4">
                             <h4>Heavy</h4>
@@ -72,8 +73,8 @@ export default {
                     </div>
                     <div class="certifications mt-5">
                         <h4>Certifications</h4>
-                        <img class="img-fluid" src="../assets/img/certificate.png" alt="">
-                        <img class="img-fluid" src="../assets/img/certificate.png" alt="">
+                        <img class="img-fluid" src="../../assets/img/certificate.png" alt="">
+                        <img class="img-fluid" src="../../assets/img/certificate.png" alt="">
                     </div>
                 </div>
             </div>
@@ -83,9 +84,11 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../assets/scss/partials/variables' as*;
+@use '../../assets/scss/partials/variables' as*;
+
 
 .excellence {
+    padding: 5rem 0;
 
     h2 {
         font-size: 50px;

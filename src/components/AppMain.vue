@@ -1,10 +1,10 @@
 <script>
-import ExcellenceMain from './ExcellenceMain.vue';
-import ServicesMain from './ServicesMain.vue';
-import ProcedureMain from './ProcedureMain.vue'
-import ResultsMain from './ResultsMain.vue'
-import FeedbackMain from './FeedbackMain.vue'
-import FormMain from './FormMain.vue'
+import ExcellenceMain from './main_components/ExcellenceMain.vue';
+import ServicesMain from './main_components/ServicesMain.vue';
+import ProcedureMain from './main_components/ProcedureMain.vue'
+import ResultsMain from './main_components/ResultsMain.vue'
+import FeedbackMain from './main_components/FeedbackMain.vue'
+import FormMain from './main_components/FormMain.vue'
 export default {
     name: "AppMain",
     components: {
