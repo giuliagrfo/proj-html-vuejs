@@ -2,14 +2,14 @@
 export default {
     name: 'AppFooter'
 }
-
 </script>
 
 <template>
+
     <footer id="site_footer">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col contacts">
                     <img class="img-fluid mb-3" src="../assets/img/logo.svg" alt="">
                     <p>A Functional HTML Template for Corporate & Business.</p>
                     <div class="contacts d-flex flex-column">

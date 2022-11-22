@@ -2,10 +2,10 @@
 export default {
     name: 'AppHeader'
 }
-
 </script>
 
 <template>
+
     <header id="site_header">
         <div class="container">
             <div class="info d-flex justify-content-between py-3">
@@ -78,8 +78,6 @@ export default {
             </div>
         </section>
     </header>
-
-
 
 </template>
 
