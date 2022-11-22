@@ -35,8 +35,7 @@ export default {
                 <div class="container">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#"><img src="../assets/img/letter-n-icon-png-21887.png"
-                                    alt=""></a>
+                            <a class="navbar-brand" href="#"><img src="../assets/img/logo.svg" alt=""></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -113,7 +112,7 @@ export default {
         }
 
         img {
-            width: 60px;
+            width: 120px;
         }
 
         .btn {

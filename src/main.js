@@ -19,6 +19,7 @@ import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -28,7 +29,8 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 
 
-library.add(faClock, faPhone, faEnvelope, faFacebook, faTwitter, faLinkedin, faUser, faSwatchbook, faTemperatureLow, faBoxesStacked, faArrowRight, faQuoteRight, faLocationDot)
+
+library.add(faClock, faPhone, faEnvelope, faFacebook, faTwitter, faLinkedin, faUser, faSwatchbook, faTemperatureLow, faBoxesStacked, faArrowRight, faQuoteRight, faLocationDot, faChevronRight)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
