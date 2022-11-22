@@ -95,6 +95,11 @@ export default {
         ul {
             padding: 0;
             list-style: none;
+
+            a {
+                text-decoration: none;
+                color: $lightgrey;
+            }
         }
     }
 }
