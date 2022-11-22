@@ -99,6 +99,7 @@ export default {
             a {
                 text-decoration: none;
                 color: $lightgrey;
+                margin: 0 0.3rem;
             }
         }
     }
