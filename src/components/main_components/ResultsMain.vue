@@ -80,5 +80,6 @@ export default {
             font-weight: 600;
         }
     }
+
 }
 </style>

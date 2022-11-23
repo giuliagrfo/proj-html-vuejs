@@ -42,6 +42,7 @@ export default {
     background-position: center top;
     height: 900px;
     opacity: 0.8;
+    transition: background-image 3.5s ease-in-out;
 
     .jumbo_info {
         height: 900px;
@@ -53,6 +54,13 @@ export default {
             padding: 0 1rem;
             font-size: 17px;
             font-weight: 500;
+            border-radius: 5px;
+
+            &:hover {
+                color: $secondary;
+                background-color: $light_blue;
+                border-radius: 5px;
+            }
         }
 
         img {
@@ -77,6 +85,13 @@ export default {
         p {
             font-weight: 300;
         }
+    }
+
+
+    &:hover {
+        background-image: url('../assets/img/bg_truck.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 </style>
