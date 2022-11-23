@@ -126,8 +126,8 @@ export default {
         color: $secondary;
 
         &:hover {
-            background-color: #0f4e5169;
-            color: $light
+            background-color: $light_blue;
+            color: $secondary;
         }
     }
 

@@ -46,6 +46,18 @@ export default {
     .jumbo_info {
         height: 900px;
         background-color: rgba(0, 0, 0, 0.567);
+
+        .navbar-nav .nav-link {
+            color: $light;
+            text-transform: uppercase;
+            padding: 0 1rem;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        img {
+            width: 120px;
+        }
     }
 
     .title {

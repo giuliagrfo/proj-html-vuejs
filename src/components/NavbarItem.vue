@@ -35,19 +35,3 @@ export default {
     </nav>
 
 </template>
-
-<style lang="scss">
-@use '../assets/scss/partials/variables' as*;
-
-.navbar-nav .nav-link {
-    color: $light;
-    text-transform: uppercase;
-    padding: 0 1rem;
-    font-size: 17px;
-    font-weight: 500;
-}
-
-img {
-    width: 120px;
-}
-</style>
