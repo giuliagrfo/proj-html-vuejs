@@ -10,6 +10,7 @@ export default {
         <div class="container">
             <span class="tag">Road Transport</span>
             <h2>Main <span class="rounded-1">Services</span></h2>
+            <!-- Section title -->
             <div class="row">
                 <div class="col-10">
                     <p class="mr-5">
@@ -18,9 +19,11 @@ export default {
                         distinctio similique dignissimos veritatis omnis vitae ratione adipisci?
                     </p>
                 </div>
+                <!-- Description -->
                 <div class="col-2">
-                    <button class="btn px-4 py-2 rounded-1 btn_see" type="button">See All</button>
+                    <button class="btn px-4 py-2 rounded-1 btn_empty" type="button">See All</button>
                 </div>
+                <!-- Button -->
             </div>
             <div class="row">
                 <div class="col tech technology mx-3  rounded-2">
@@ -56,6 +59,7 @@ export default {
                     </p>
                 </div>
             </div>
+            <!-- Technologies -->
         </div>
     </section>
 

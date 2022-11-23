@@ -21,3 +21,32 @@ export default {
   <AppFooter />
 
 </template>
+
+<style lang="scss">
+@use './assets/scss/partials/variables' as*;
+
+
+.btn {
+  background-color: $secondary;
+  border: 1px solid $secondary;
+  color: $light;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $light_blue;
+    color: $secondary;
+
+  }
+}
+
+.btn_empty {
+  background-color: transparent;
+  border: 1px solid $secondary ;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #0f4e5156;
+    color: $light
+  }
+}
+</style>

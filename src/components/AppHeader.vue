@@ -26,14 +26,17 @@ export default {
                         <font-awesome-icon icon="fa-solid fa-envelope" />
                         <span class="p-2">hello@example.com</span>
                     </div>
+                    <!-- Contacts -->
                     <div class="social">
                         <font-awesome-icon icon="fa-brands fa-facebook" class="px-3" />
                         <font-awesome-icon icon="fa-brands fa-twitter" class="px-3" />
                         <font-awesome-icon icon="fa-brands fa-linkedin" class="px-3" />
                     </div>
+                    <!-- Social icons -->
                 </div>
             </div>
         </div>
+
         <JumbotronItem />
 
     </header>

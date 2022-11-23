@@ -9,8 +9,12 @@ export default {
     <section class="procedure">
         <span class="tag">How it works in practice</span>
         <h2><span>Logistical</span> Procedure</h2>
-        <p>We work with innovative methodologies to ensure that the entire delivery process is done from start
-            to finish as planned.</p>
+        <!-- Section title -->
+        <p>
+            We work with innovative methodologies to ensure that the entire delivery process is done from start
+            to finish as planned.
+        </p>
+        <!-- Description -->
         <div class="line"></div>
         <div class="container-fluid">
             <div class="row">
@@ -52,6 +56,7 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- Action process -->
     </section>
 
 </template>

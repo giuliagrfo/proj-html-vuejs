@@ -42,6 +42,7 @@ export default {
 .tag {
     color: $secondary;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 p,

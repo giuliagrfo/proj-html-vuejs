@@ -13,6 +13,7 @@ export default {
                 <div class="col-8 transport">
                     <span class="tag">Who we are</span>
                     <h2><span>Excellence</span> in Transport</h2>
+                    <!-- Section title -->
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis molestiae inventore
                         incidunt
@@ -39,6 +40,7 @@ export default {
                         <li>Voluptatum nesciunt, harum maxime itaque</li>
                         <li>Distinctio similique dignissimos veritatis</li>
                     </ul>
+                    <!-- Info -->
                 </div>
                 <div class="col-4 vehicle">
                     <h4 class="mb-5">Vehicle Types</h4>
@@ -71,11 +73,13 @@ export default {
                             <span>Max Weight 24000kg</span>
                         </div>
                     </div>
+                    <!-- Vehicle Types -->
                     <div class="certifications mt-5">
                         <h4>Certifications</h4>
                         <img class="img-fluid" src="../../assets/img/certificate.png" alt="">
                         <img class="img-fluid" src="../../assets/img/certificate.png" alt="">
                     </div>
+                    <!-- Certificate -->
                 </div>
             </div>
         </div>

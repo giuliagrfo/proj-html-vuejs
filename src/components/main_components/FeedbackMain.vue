@@ -10,9 +10,12 @@ export default {
         <div class="container">
             <span class="tag">Customer testimonials</span>
             <h2 class="mb-5">Trusted <span class="rounded-1">Feedback</span></h2>
+            <!-- Section title -->
             <p>We work intensively in searh of ideas that can add up in the lives of our customers.
                 That is what
-                moves us and we are grateful for the recognition</p>
+                moves us and we are grateful for the recognition
+            </p>
+            <!-- Description -->
             <div class="row justify-content-center text-start">
                 <div class="col-3 sites">
                     <div class="head">
@@ -60,6 +63,7 @@ export default {
                     </div>
                 </div>
             </div>
+            <!-- Sites feedback -->
         </div>
     </section>
 
