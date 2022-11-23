@@ -54,7 +54,6 @@ export default {
 <style lang="scss">
 @use '../../assets/scss/partials/variables' as*;
 
-
 .results {
     text-align: center;
     background-image: url('../../assets/img/bg-10.jpg');
@@ -80,6 +79,5 @@ export default {
             font-weight: 600;
         }
     }
-
 }
 </style>

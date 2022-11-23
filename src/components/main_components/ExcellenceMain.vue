@@ -90,7 +90,6 @@ export default {
 <style lang="scss">
 @use '../../assets/scss/partials/variables' as*;
 
-
 .excellence {
     padding: 5rem 0;
 
